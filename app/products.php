@@ -12,8 +12,8 @@
 <body>
   <?php include 'template/header.php';?>
   <div class="content">
-    <h1>ПРОДУКЦИЯ</h1>
     <div class="products">
+      <h1>ПРОДУКЦИЯ</h1>
       <button class="unfoldingListButton">
         <h2>Гусенечные сельскохозяйственные трактора</h2>
       </button>
