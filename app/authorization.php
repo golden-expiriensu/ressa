@@ -13,7 +13,7 @@
   <?php include 'template/header.php';?>
   <div class="content">
     <div>
-      <p>Вход в аккаунт</p>
+      <h3>Вход в аккаунт</h3>
       <form action="user-validation/authorizationProcessing.php" method="POST" name="authorization">
         <input type="text" class="formControl" name="login" placeholder="Логин">
         <input type="password" class="formControl" name="password" id="regPassword" placeholder="Пароль">

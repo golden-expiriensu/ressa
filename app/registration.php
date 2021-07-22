@@ -13,7 +13,7 @@
   <?php include 'template/header.php';?>
   <div class="content">
     <div>
-      <p>Регистрация</p>
+      <h3>Регистрация</h3>
       <form action="user-validation/registrationProcessing.php" method="POST" name="registration">
         <input type="text" class="formControl" name="login" placeholder="Придумайте логин">
         <input type="text" class="formControl" name="name" placeholder="Имя">

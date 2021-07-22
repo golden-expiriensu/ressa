@@ -2,7 +2,7 @@
 
 const popupOffset = 5,
   popupBackground = $('#popupBackground'),
-  showTime = 150;
+  showTime = 200;
 var currentPopup, currentPopupButton, currentUnfoldingList, currentUnfoldingListButton;
 
 

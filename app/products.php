@@ -19,7 +19,7 @@
       </button>
       <ul class="unfoldingList">
         <li>
-          <button class="popupButton">ТПУ 3</button>
+          <button class="popupButton"><h3>ТПУ 3</h3></button>
           <div class="popup prompt">
             <a href="">
               Трактор гусеничный сельскохозяйственный тяговый класс 3
@@ -27,7 +27,7 @@
           </div>
         </li>
         <li>
-          <button class="popupButton">ТПУ 4</button>
+          <button class="popupButton"><h3>ТПУ 4</h3></button>
           <div class="popup prompt">
             <a href="">
               Трактор гусеничный сельскохозяйственный тяговый класс 4
@@ -35,7 +35,7 @@
           </div>
         </li>
         <li>
-          <button class="popupButton">ТСХ 600</button>
+          <button class="popupButton"><h3>ТСХ 600</h3></button>
           <div class="popup prompt">
             <a href="">
               Трактор гусеничный сельскохозяйственный тяговый класс 6-8
@@ -48,7 +48,7 @@
       </button>
       <ul class="unfoldingList">
         <li>
-          <button class="popupButton">ТПУ 3а</button>
+          <button class="popupButton"><h3>ТПУ 3а</h3></button>
           <div class="popup">
             <ul>
               <li>
@@ -67,7 +67,7 @@
           </div>
         </li>
         <li>
-          <button class="popupButton">ТПУ 4а</button>
+          <button class="popupButton"><h3>ТПУ 4а</h3></button>
           <div class="popup">
             <ul>
               <li>
@@ -94,7 +94,7 @@
       </button>
       <ul class="unfoldingList">
         <li>
-          <button class="popupButton">Лесозаготовительная</button>
+          <button class="popupButton"><h3>Лесозаготовительная</h3></button>
           <div class="popup">
             <ul>
               <li>
@@ -113,7 +113,7 @@
           </div>
         </li>
         <li>
-          <button class="popupButton">Лесовосстановительная</button>
+          <button class="popupButton"><h3>Лесовосстановительная</h3></button>
           <div class="popup">
             <ul>
               <li>
@@ -135,7 +135,7 @@
           </div>
         </li>
         <li>
-          <button class="popupButton">Лесозащитная</button>
+          <button class="popupButton"><h3>Лесозащитная</h3></button>
           <div class="popup">
             <ul>
               <li>
