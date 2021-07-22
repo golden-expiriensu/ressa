@@ -11,7 +11,7 @@
 
 <body>
   <?php include 'template/header.php';?>
-  <div class="main-face">
+  <div class="content">
     <div>
       <p>Регистрация</p>
       <form action="user-validation/registrationProcessing.php" method="POST" name="registration">

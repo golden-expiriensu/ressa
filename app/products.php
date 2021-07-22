@@ -11,11 +11,11 @@
 
 <body>
   <?php include 'template/header.php';?>
-  <div class="main-face">
+  <div class="content">
     <h1>ПРОДУКЦИЯ</h1>
     <div class="products">
       <button class="unfoldingListButton">
-        <h3>Гусенечные сельскохозяйственные трактора</h3>
+        <h2>Гусенечные сельскохозяйственные трактора</h2>
       </button>
       <ul class="unfoldingList">
         <li>
@@ -44,7 +44,7 @@
         </li>
       </ul>
       <button class="unfoldingListButton">
-        <h3>Гусенечные промышленные трактора</h3>
+        <h2>Гусенечные промышленные трактора</h2>
       </button>
       <ul class="unfoldingList">
         <li>
@@ -90,7 +90,7 @@
         </li>
       </ul>
       <button class="unfoldingListButton">
-        <h3>Гусенечные универсальные трактора</h3>
+        <h2>Гусенечные универсальные трактора</h2>
       </button>
       <ul class="unfoldingList">
         <li>

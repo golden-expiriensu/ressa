@@ -4,45 +4,37 @@
   <div>
     <ul>
       <li>
-        <a href="about.php">
-          <h1>О нас</h1>
-        </a>
+        <a href="about.php">О нас</a>
       </li>
       <li>
-        <a href="products.php">
-          <h1>Продукция</h1>
-        </a>
+        <a href="products.php">Продукция</a>
       </li>
       <li>
-        <a href="development.php">
-          <h1>Разработки</h1>
-        </a>
+        <a href="development.php">Разработки</a>
       </li>
       <li>
-        <a href="contacts.php">
-          <h1>Контакты</h1>
-        </a>
+        <a href="contacts.php">Контакты</a>
+      </li>
+      <li>
+        <button type="button" name="personalArea" class="buttonPopupButton">
+          Личный кабинет
+        </button>
+        <div id="personalAreaPopup" class="popup buttonPopup userPersonalArea">
+          <?php if($_COOKIE['user'] == ''): ?>
+          <ul>
+            <li><a href="authorization.php">Войти</a></li>
+            <li><a href="registration.php">Зарегистрироваться</a></li>
+          </ul>
+          <?php else: ?>
+          <ul class="userPersonalArea">
+            <li><p>Добрый день, <?= $_COOKIE['user'] ?></p></li>
+            <li><a href="">Паспорт ПСМ</a></li>
+            <li><a href="">Личный кабинет</a></li>
+            <li><a href="user-validation/exit.php">Выйти</a></li>
+          </ul>
+          <?php endif; ?>
+        </div>
       </li>
     </ul>
-  </div>
-  <div>
-    <button type="button" name="personalArea" class="buttonPopupButton">
-      Личный кабинет
-    </button>
-    <div id="personalAreaPopup" class="popup buttonPopup userPersonalArea">
-      <?php if($_COOKIE['user'] == ''): ?>
-      <ul>
-        <li><a href="authorization.php">Войти</a></li>
-        <li><a href="registration.php">Зарегистрироваться</a></li>
-      </ul>
-      <?php else: ?>
-      <ul class="userPersonalArea">
-        <li><p>Добрый день, <?= $_COOKIE['user'] ?></p></li>
-        <li><a href="">Паспорт ПСМ</a></li>
-        <li><a href="">Личный кабинет</a></li>
-        <li><a href="user-validation/exit.php">Выйти</a></li>
-      </ul>
-      <?php endif; ?>
-    </div>
   </div>
 </header>
