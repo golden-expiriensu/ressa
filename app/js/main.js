@@ -61,6 +61,7 @@ function clickPopup(currentPopup) {
 
   popupBackground.show();
   popupBackground.on('click', function() {
+    currentPopup.hide(showTime);
     popupBackground.hide();
   });
 }

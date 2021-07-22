@@ -89,7 +89,7 @@ function php() {
 
 function startwatch() {
   // JS
-  watch(['app/**/*.js', '!app/**/*.min.js'], scripts);
+  watch(['app/**/*.js'], scripts);
   //SASS
   watch('app/**/' + preprocessor + '/**/*', styles);
   //HTML
