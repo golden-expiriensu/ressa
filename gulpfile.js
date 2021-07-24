@@ -34,6 +34,7 @@ function browsersync() {
 function scripts() {
   return src([
       'node_modules/jquery/dist/jquery.min.js',
+      'app/js/vue.js',
       'app/js/main.js'
     ])
     .pipe(concat('app.min.js'))
