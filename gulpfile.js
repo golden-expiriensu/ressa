@@ -73,7 +73,6 @@ function html() {
   return src('app/**/*.html', {
       base: 'app'
     })
-    .pipe(rigger())
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true
@@ -94,7 +93,7 @@ function startwatch() {
   //SASS
   watch('app/**/' + preprocessor + '/**/*', styles);
   //HTML
-  //watch('app/**/*.html').on('change', series(html, browserSync.reload));
+  watch('app/**/*.html').on('change', series(html, browserSync.reload));
   //IMAGES
   watch('app/images/src/**/*.*', images);
   //PHP
@@ -135,4 +134,4 @@ exports.cleardist = cleardist;
 
 exports.build = build;
 
-exports.default = series(parallel(styles, scripts, images, php), parallel(browsersync, startwatch));
+exports.default = series(parallel(styles, scripts, images, html, php), parallel(browsersync, startwatch));
