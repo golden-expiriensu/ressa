@@ -23,13 +23,13 @@ function moveBlockAboveBlock(block1, block2, e) {
     'left': (e.pageX - popupOffset) + 'px'
   });
   block1.css({
-    'bottom': (window.innerHeight - block2.offset().top) + 'px'
+    'bottom': ($(window).height() - block2.offset().top) + 'px'
   });
 }
 
 function moveBlockBelowBlock(block1, block2) {
   block1.css({
-    'right': (window.innerWidth - block2.offset().left - block2.width() - ((document.body.offsetHeight > window.innerHeight) ? scrollWidth : 0)) + 'px'
+    'right': ($(window).width() - block2.offset().left - block2.width() - ((document.body.offsetHeight > window.innerHeight) ? scrollWidth : 0)) + 'px'
   });
   block1.css({
     'top': block2.offset().bottom + 'px'
