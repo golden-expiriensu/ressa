@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><?php include 'template/head.php';?></head>
-<body>
-  <?php include 'template/header.php';?>
-  <div class="content">
+<?php include 'template/head.php';?>
     <ul>
       <li>
         <a href="about.php">
@@ -26,9 +21,4 @@
         </a>
       </li>
     </ul>
-
-  </div>
-  <?php include 'template/footer.html';?>
-</body>
-<?php include 'template/jsSrc.html';?>
-</html>
+<?php include 'template/foot.php';?>

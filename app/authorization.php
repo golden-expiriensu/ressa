@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><?php include 'template/head.php';?></head>
-<body>
-  <?php include 'template/header.php';?>
-  <div class="content">
+<?php include 'template/head.php';?>
     <div>
       <h3>Вход в аккаунт</h3>
       <form action="user-validation/authorizationProcessing.php" method="POST" name="authorization">
@@ -16,9 +11,4 @@
         <?php setcookie('last_error', '', -1, '/authorization.php'); ?>
       </form>
     </div>
-  </div>
-
-  <?php include 'template/footer.html';?>
-</body>
-<?php include 'template/jsSrc.html';?>
-</html>
+<?php include 'template/foot.php';?>

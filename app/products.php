@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><?php include 'template/head.php';?></head>
-<body>
-  <?php include 'template/header.php';?>
-  <div class="content">
+<?php include 'template/head.php';?>
     <div class="products">
       <h1>ПРОДУКЦИЯ</h1>
       <button class="unfoldingListButton">
@@ -147,8 +142,4 @@
         </li>
       </ul>
     </div>
-  </div>
-  <?php include 'template/footer.html';?>
-</body>
-<?php include 'template/jsSrc.html';?>
-</html>
+<?php include 'template/foot.php';?>
