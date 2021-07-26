@@ -24,7 +24,7 @@
         <li>
           <button class="popupButton"><h3>ТСХ 600</h3></button>
           <div class="popup prompt">
-            <a href="">
+            <a href="tsh600.php">
               Трактор гусеничный сельскохозяйственный тяговый класс 6-8
             </a>
           </div>
