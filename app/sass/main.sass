@@ -68,13 +68,16 @@ button
   &:hover
     color: $hoverTextC
 
+p
+  text-indent: 1em
+
 //------------------------------------------------------------//
 
 body
   display: flex
 body
   min-height: 100vh
-  background: $backgroundC url($backgroundU) center fixed no-repeat
+  background: $backgroundC url($backgroundU) center center fixed no-repeat
   background:
     size: cover
     blend-mode: hue
@@ -199,15 +202,33 @@ form
     border-bottom: 1px solid $borderC
 
 .bigImg
-  width: 100%
-  margin: 1em 0
+  margin: 1em auto
+  @media screen and (min-width: 1201px)
+    width: 80%
+  @media screen and (max-width: 1200px)
+    width: 90%
+  @media screen and (max-width: 960px)
+    width: 95%
+  @media screen and (max-width: 720px)
+    width: 100%
 
-.floatImg
+img
   max-width: 100%
+
+.floatLeft
   float: left
+.floatRight
+  float: right
+.floatLeft, .floatRight
+  margin: 1em
+
+.imgDescription
+  text-align: center
 
 .unfoldingList
   display: none
+  li
+    text-align: center
 
 #popupBackground
   position: fixed
