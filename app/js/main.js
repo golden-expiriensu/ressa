@@ -3,7 +3,7 @@
 const popupOffset = 5,
   popupBackground = $('#popupBackground'),
   showTime = 200;
-var currentPopup, currentPopupButton, currentUnfoldingList, currentUnfoldingListButton;
+var currentPopup, currentPopupButton, currentUnfoldingList, currentUnfoldingListButton, currentSelfishUnfoldingList, currentSelfishUnfoldingListButton;
 
 
 //width of the scrollbar
@@ -143,3 +143,42 @@ function activateUnfoldingList() {
 }
 
 activateUnfoldingList();
+
+//-----------------------SELFISH UNFOLDING LIST--------------------------//
+
+function findCurrentSelfishUnfoldingListByItButton() {
+  currentSelfishUnfoldingListButton.addClass('currentSelfishUnfoldingListButton');
+  currentSelfishUnfoldingList = $('.currentSelfishUnfoldingListButton + .selfishUnfoldingList');
+  currentSelfishUnfoldingListButton.removeClass('currentSelfishUnfoldingListButton');
+}
+
+function activateSelfishUnfoldingList() {
+  var unfoldingListButtons = $('.selfishUnfoldingListButton');
+  for (let i = 0; i < unfoldingListButtons.length; i++) {
+    currentSelfishUnfoldingListButton = unfoldingListButtons.eq(i);
+
+    currentSelfishUnfoldingListButton.on('click', function() {
+
+      currentSelfishUnfoldingListButton = unfoldingListButtons.eq(i);
+      findCurrentSelfishUnfoldingListByItButton();
+      hideSelfishUnfoldingListsExceptCurrent(currentSelfishUnfoldingList);
+
+      if(currentSelfishUnfoldingList.is(":visible")){
+        currentSelfishUnfoldingList.slideUp();
+      }else{
+        currentSelfishUnfoldingList.slideDown();
+      }
+    });
+  }
+}
+
+function hideSelfishUnfoldingListsExceptCurrent(currentSelfishUnfoldingList){
+  var selfishUnfoldingLists = $(".selfishUnfoldingList");
+  for (let i = 0; i < selfishUnfoldingLists.length; i++) {
+      if(!currentSelfishUnfoldingList.closest(selfishUnfoldingLists.eq(i)).length){
+        selfishUnfoldingLists.eq(i).slideUp();
+      }
+    }
+}
+
+activateSelfishUnfoldingList();

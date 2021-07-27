@@ -1,10 +1,11 @@
 <?php include 'template/head.php';?>
     <div class="products">
       <h1>ПРОДУКЦИЯ</h1>
-      <button class="unfoldingListButton">
+
+      <button class="selfishUnfoldingListButton">
         <h2>Гусеничные сельскохозяйственные трактора</h2>
       </button>
-      <ul class="unfoldingList">
+      <ul class="selfishUnfoldingList">
 
         <li>
           <button class="popupButton"><h3>ТПУ 3</h3></button>
@@ -43,10 +44,11 @@
         </li>
 
       </ul>
-      <button class="unfoldingListButton">
+
+      <button class="selfishUnfoldingListButton">
         <h2>Гусенечные промышленные трактора</h2>
       </button>
-      <ul class="unfoldingList">
+      <ul class="selfishUnfoldingList">
 
         <li>
           <button class="popupButton"><h3>ТПУ 3А</h3></button>
@@ -67,14 +69,15 @@
         </li>
 
       </ul>
-      <button class="unfoldingListButton">
+
+      <button class="selfishUnfoldingListButton">
         <h2>Гусеничные универсальные и лесозаготовительные трактора</h2>
       </button>
-      <ul class="unfoldingList">
+      <ul class="selfishUnfoldingList">
 
         <li>
-          <button class="unfoldingListButton"><h3>ТГУ 4</h3></button>
-          <div class="unfoldingList">
+          <button class="selfishUnfoldingListButton"><h3>ТГУ 4</h3></button>
+          <div class="selfishUnfoldingList">
             <p>
               Трактор гусеничный универсальный класса 4 тс, предназначенный для установки технологического оборудования, полной массой устанавливаемого и эксплуатируемого технологического оборудования до 10 000 кг.
             </p>
@@ -104,8 +107,8 @@
         </li>
 
         <li>
-          <button class="unfoldingListButton"><h3>ТГУ 5</h3></button>
-          <div class="unfoldingList">
+          <button class="selfishUnfoldingListButton"><h3>ТГУ 5</h3></button>
+          <div class="selfishUnfoldingList">
             <p>
               Трактор гусеничный универсальный класса 5 тс, предназначенный для установки технологического оборудования, полной массой устанавливаемого и эксплуатируемого технологического оборудования до 14 000 кг.
             </p>
@@ -144,8 +147,8 @@
         </li>
 
         <li>
-          <button class="unfoldingListButton"><h3>ТГУ 6</h3></button>
-          <div class="unfoldingList">
+          <button class="selfishUnfoldingListButton"><h3>ТГУ 6</h3></button>
+          <div class="selfishUnfoldingList">
             <p>
               Трактор гусеничный универсальный класса 6 тс, предназначенный для установки технологического оборудования, полной массой устанавливаемого и эксплуатируемого технологического оборудования до 20 000 кг.
             </p>
@@ -188,8 +191,8 @@
         </li>
 
         <li>
-          <button class="unfoldingListButton"><h3>ТГУ 6У</h3></button>
-          <div class="unfoldingList">
+          <button class="selfishUnfoldingListButton"><h3>ТГУ 6У</h3></button>
+          <div class="selfishUnfoldingList">
             <p>
               Трактор гусеничный универсальный класса 6 тс, удлинённое шасси, предназначенный для установки технологического оборудования, полной массой устанавливаемого и эксплуатируемого технологического оборудования до 20 000 кг.
             </p>
@@ -208,5 +211,7 @@
         </li>
 
       </ul>
+
+
     </div>
 <?php include 'template/foot.php';?>
