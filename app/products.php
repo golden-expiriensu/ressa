@@ -28,7 +28,7 @@
         <li>
           <button class="popupButton"><h3>ТСХ 501</h3></button>
           <div class="popup prompt">
-            <a href="tsh600.php">
+            <a href="">
               Трактора гусеничные сельскохозяйственные общего назначения, тягового класса 5 тс
             </a>
           </div>
@@ -37,7 +37,7 @@
         <li>
           <button class="popupButton"><h3>ТСХ 600</h3></button>
           <div class="popup prompt">
-            <a href="tsh600.php">
+            <a href="products/tsh600.php">
               Трактора гусеничные сельскохозяйственные общего назначения, тягового класса 6 тс
             </a>
           </div>

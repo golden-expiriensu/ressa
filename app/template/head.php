@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>О нас</title>
-  <?php include 'template/styleSrc.html';?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/styleSrc.php';?>
 </head>
 <body>
-  <?php include 'template/header.php';?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/header.php';?>
   <div class="content">

@@ -1,5 +1,5 @@
 </div>
-<?php include 'template/footer.html';?>
+<?php include $_SERVER['DOCUMENT_ROOT'] .'/template/footer.html';?>
 </body>
-<?php include 'template/jsSrc.html';?>
+<?php include $_SERVER['DOCUMENT_ROOT'] .'/template/jsSrc.php';?>
 </html>
