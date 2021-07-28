@@ -94,7 +94,7 @@ function startwatch() {
   //HTML
   watch('app/**/*.html').on('change', series(html, browserSync.reload));
   //IMAGES
-  watch('app/images/src/**/*.*', images);
+  watch('app/images/src/**/*.*', series(images, browserSync.reload));
   //PHP
   watch('app/**/*.php').on('change', series(php, browserSync.reload));
 }

@@ -5,7 +5,15 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/foot.php';?>
 
 <!-- DESCRIPTION URL -->
-<?php include '../TRACTOR//.html';?>
+<?php include '../TRACTOR///.html';?>
+
+<!-- STRUCTURE -->
+<button class="unfoldingListButton"><h2>Описание трактора</h2></button>
+.unfoldingList
+<button class="unfoldingListButton"><h2>Технические характеристики</h2></button>
+.unfoldingList
+<button class="unfoldingListButton"><h2>Комплектация поставки</h2></button>
+.unfoldingList
 
 <!-- BIG CATEGORY -->
 <button class="unfoldingListButton"><h2></h2></button>
@@ -40,11 +48,11 @@
       <?php include '../TRACTOR/TCX_600//.html';?>
     </p>
     <div class="floatLeft">
-      <img src="../Images/dest//.png" alt="">
+      <img src="../images/dest//.png" alt="">
       <p class="imgDescription"></p>
     </div>
     <div class="floatRight">
-      <img src="../Images/dest//.png" alt="">
+      <img src="../images/dest//.png" alt="">
       <p class="imgDescription"></p>
     </div>
   </div>
