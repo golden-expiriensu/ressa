@@ -2,7 +2,7 @@
 <h2>Гусеничный сельскохозяйственный трактор общего назначения
 ТСХ-600</h2>
 <div class="bigImg">
-  <img src="../images/dest/tsh600/mainView.png" alt="../mainView">
+  <img src="../images/dest/tsh600/mainView.png" alt="mainView">
   <p class="imgDescription">Трактор ТСХ600</p>
 </div>
 <hr>
@@ -22,11 +22,11 @@
         <?php include '../TRACTOR/TCX_600/specifications/engine.html';?>
       </p>
       <div class="floatLeft">
-        <img src="../Images/dest/tsh600/WP-12G380E310.png" alt="../WP-12G380E310">
+        <img src="../Images/dest/tsh600/WP-12G380E310.png" alt="WP-12G380E310">
         <p class="imgDescription">WP-12G380E310</p>
       </div>
       <div class="floatRight">
-        <img src="../Images/dest/tsh600/Д-3061-10.jpg" alt="../Д-3061-10">
+        <img src="../Images/dest/tsh600/Д-3061-10.jpg" alt="Д-3061-10">
         <p class="imgDescription">Д-3061-10</p>
       </div>
     </div>
@@ -39,8 +39,8 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/transmission.html';?>
       </p>
-      <img src="../images/dest/tsh600/transmission_1.png" alt="../transmission_1" class="floatLeft">
-      <img src="../images/dest/tsh600/transmission_2.png" alt="../transmission_2" class="floatRight">
+      <img src="../images/dest/tsh600/transmission_1.png" alt="transmission_1" class="floatLeft">
+      <img src="../images/dest/tsh600/transmission_2.png" alt="transmission_2" class="floatRight">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -51,8 +51,8 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/gearbox.html';?>
       </p>
-      <img src="../images/dest/tsh600/gearBox_1.png" alt="../gearBox_1" class="floatLeft">
-      <img src="../images/dest/tsh600/gearBox_2.png" alt="../gearBox_2" class="floatRight">
+      <img src="../images/dest/tsh600/gearBox_1.png" alt="gearBox_1" class="floatLeft">
+      <img src="../images/dest/tsh600/gearBox_2.png" alt="gearBox_2" class="floatRight">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -71,8 +71,8 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/final_transmission_left_or_right.html';?>
       </p>
-      <img src="../images/dest/tsh600/gearLeftOrRight_1.png" alt="../gearLeftOrRight_1" class="floatLeft">
-      <img src="../images/dest/tsh600/gearLeftOrRight_2.png" alt="../gearLeftOrRight_2" class="floatRight">
+      <img src="../images/dest/tsh600/gearLeftOrRight_1.png" alt="gearLeftOrRight_1" class="floatLeft">
+      <img src="../images/dest/tsh600/gearLeftOrRight_2.png" alt="gearLeftOrRight_2" class="floatRight">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -83,8 +83,8 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/transmission_hydraulic_system.html';?>
       </p>
-      <img src="../images/dest/tsh600/transmissionHydraulicSystem_1.png" alt="../transmissionHydraulicSystem_1" class="floatLeft">
-      <img src="../images/dest/tsh600/transmissionHydraulicSystem_2.png" alt="../transmissionHydraulicSystem_2" class="floatRight">
+      <img src="../images/dest/tsh600/transmissionHydraulicSystem_1.png" alt="transmissionHydraulicSystem_1" class="floatLeft">
+      <img src="../images/dest/tsh600/transmissionHydraulicSystem_2.png" alt="transmissionHydraulicSystem_2" class="floatRight">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -95,8 +95,8 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/PTO_power_take-off_shaft.html';?>
       </p>
-      <img src="../images/dest/tsh600/PTOBOM_1.png" alt="../PTOBOM_1" class="floatLeft">
-      <img src="../images/dest/tsh600/PTOBOM_2.png" alt="../PTOBOM_2" class="floatRight">
+      <img src="../images/dest/tsh600/PTOBOM_1.png" alt="PTOBOM_1" class="floatLeft">
+      <img src="../images/dest/tsh600/PTOBOM_2.png" alt="PTOBOM_2" class="floatRight">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -115,7 +115,7 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/chassis.html';?>
       </p>
-      <img src="../images/dest/tsh600/chassis.png" alt="../chassis" class="bigImg">
+      <img src="../images/dest/tsh600/chassis.png" alt="chassis" class="bigImg">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -126,7 +126,7 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/fuel_tank.html';?>
       </p>
-      <img src="../images/dest/tsh600/fuelTank.png" alt="../fuelTank" class="bigImg">
+      <img src="../images/dest/tsh600/fuelTank.png" alt="fuelTank" class="bigImg">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -145,9 +145,9 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/hydraulic_system.html';?>
       </p>
-      <img src="../images/dest/tsh600/hydraulicSystem_1.png" alt="../hydraulicSystem_1" class="floatLeft">
+      <img src="../images/dest/tsh600/hydraulicSystem_1.png" alt="hydraulicSystem_1" class="floatLeft">
       <div class="floatRight">
-        <img src="../images/dest/tsh600/hydraulicSystem_2.png" alt="../hydraulicSystem_2" class="bigImg">
+        <img src="../images/dest/tsh600/hydraulicSystem_2.png" alt="hydraulicSystem_2" class="bigImg">
         <p class="imgDescription">Проходной фильтр высокого давления</p>
       </div>
     </div>
@@ -168,7 +168,7 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/facing.html';?>
       </p>
-      <img src="../images/dest/tsh600/facing.png" alt="../facing" class="bigImg">
+      <img src="../images/dest/tsh600/facing.png" alt="facing" class="bigImg">
     </div>
   </li>
   <div class="clearfix"></div>
@@ -187,8 +187,8 @@
       <p>
         <?php include '../TRACTOR/TCX_600/specifications/rear_hitch.html';?>
       </p>
-      <img src="../images/dest/tsh600/rearHitch_1.png" alt="../rearHitch_1" class="floatLeft">
-      <img src="../images/dest/tsh600/rearHitch_2.png" alt="../rearHitch_2" class="floatRight">
+      <img src="../images/dest/tsh600/rearHitch_1.png" alt="rearHitch_1" class="floatLeft">
+      <img src="../images/dest/tsh600/rearHitch_2.png" alt="rearHitch_2" class="floatRight">
     </div>
   </li>
   <div class="clearfix"></div>
