@@ -115,7 +115,7 @@
         <ul>
 
           <li>
-            <h4><a href="">Базовое шасси</a></h4>
+            <h4><a href="products/tgu5base.php">Базовое шасси</a></h4>
           </li>
 
           <li>
