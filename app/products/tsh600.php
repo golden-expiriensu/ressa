@@ -8,9 +8,9 @@
 <hr>
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>
-<p class="unfoldingList">
+<div class="unfoldingList">
   <?php include '../TRACTOR/TCX_600/description.html';?>
-</p>
+</div>
 
 <button class="unfoldingListButton"><h2>Технические характеристики</h2></button>
 <ul class="unfoldingList">
@@ -18,9 +18,9 @@
   <li>
     <button  class="unfoldingListButton"><h3>Двигатель</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/engine.html';?>
-      </p>
+      </div>
       <div class="floatLeft">
         <img src="../Images/dest/tsh600/WP-12G380E310.png" alt="WP-12G380E310">
         <p class="imgDescription">WP-12G380E310</p>
@@ -36,9 +36,9 @@
   <li>
     <button class="unfoldingListButton"><h3>Трансмиссия</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/transmission.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/transmission_1.png" alt="transmission_1" class="floatLeft">
       <img src="../images/dest/tsh600/transmission_2.png" alt="transmission_2" class="floatRight">
     </div>
@@ -48,9 +48,9 @@
   <li>
     <button class="unfoldingListButton"><h3>Коробка перемены передач</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/gearbox.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/gearBox_1.png" alt="gearBox_1" class="floatLeft">
       <img src="../images/dest/tsh600/gearBox_2.png" alt="gearBox_2" class="floatRight">
     </div>
@@ -59,18 +59,18 @@
 
   <li>
     <button class="unfoldingListButton"><h3>Мост</h3></button>
-    <p class="unfoldingList">
+    <div class="unfoldingList">
       <?php include '../TRACTOR/TCX_600/specifications/axle.html';?>
-    </p>
+    </div>
   </li>
   <div class="clearfix"></div>
 
   <li>
     <button class="unfoldingListButton"><h3>Передача конечная левая и правая</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/final_transmission_left_or_right.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/gearLeftOrRight_1.png" alt="gearLeftOrRight_1" class="floatLeft">
       <img src="../images/dest/tsh600/gearLeftOrRight_2.png" alt="gearLeftOrRight_2" class="floatRight">
     </div>
@@ -80,9 +80,9 @@
   <li>
     <button class="unfoldingListButton"><h3>Гидросистема трансмиссии</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/transmission_hydraulic_system.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/transmissionHydraulicSystem_1.png" alt="transmissionHydraulicSystem_1" class="floatLeft">
       <img src="../images/dest/tsh600/transmissionHydraulicSystem_2.png" alt="transmissionHydraulicSystem_2" class="floatRight">
     </div>
@@ -92,9 +92,9 @@
   <li>
     <button class="unfoldingListButton"><h3>Вал отбора мощности ВОМ</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/PTO_power_take-off_shaft.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/PTOBOM_1.png" alt="PTOBOM_1" class="floatLeft">
       <img src="../images/dest/tsh600/PTOBOM_2.png" alt="PTOBOM_2" class="floatRight">
     </div>
@@ -103,18 +103,18 @@
 
   <li>
     <button class="unfoldingListButton"><h3>Гидрообъёмный ходоуменьшитель</h3></button>
-    <p class="unfoldingList">
+    <div class="unfoldingList">
       <?php include '../TRACTOR/TCX_600/specifications/hydrostatic_creeper.html';?>
-    </p>
+    </div>
   </li>
   <div class="clearfix"></div>
 
   <li>
     <button class="unfoldingListButton"><h3>Шасси</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/chassis.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/chassis.png" alt="chassis" class="bigImg">
     </div>
   </li>
@@ -123,9 +123,9 @@
   <li>
     <button class="unfoldingListButton"><h3>Топливный бак</h3></button>
     <div  class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/fuel_tank.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/fuelTank.png" alt="fuelTank" class="bigImg">
     </div>
   </li>
@@ -133,18 +133,18 @@
 
   <li>
     <button class="unfoldingListButton"><h3>Бак гидросистемы</h3></button>
-    <p class="unfoldingList">
+    <div class="unfoldingList">
       <?php include '../TRACTOR/TCX_600/specifications/hydraulic_tank.html';?>
-    </p>
+    </div>
   </li>
   <div class="clearfix"></div>
 
   <li>
     <button class="unfoldingListButton"><h3>Гидросистема</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/hydraulic_system.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/hydraulicSystem_1.png" alt="hydraulicSystem_1" class="floatLeft">
       <div class="floatRight">
         <img src="../images/dest/tsh600/hydraulicSystem_2.png" alt="hydraulicSystem_2" class="bigImg">
@@ -156,18 +156,18 @@
 
   <li>
     <button class="unfoldingListButton"><h3>Кабина</h3></button>
-    <p class="unfoldingList">
+    <div class="unfoldingList">
       <?php include '../TRACTOR/TCX_600/specifications/cabin.html';?>
-    </p>
+    </div>
   </li>
   <div class="clearfix"></div>
 
   <li>
     <button class="unfoldingListButton"><h3>Облицовка</h3></button>
     <div  class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/facing.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/facing.png" alt="facing" class="bigImg">
     </div>
   </li>
@@ -175,18 +175,18 @@
 
   <li>
     <button class="unfoldingListButton"><h3>Освещение</h3></button>
-    <p class="unfoldingList">
+    <div class="unfoldingList">
       <?php include '../TRACTOR/TCX_600/specifications/lighting.html';?>
-    </p>
+    </div>
   </li>
   <div class="clearfix"></div>
 
   <li>
     <button class="unfoldingListButton"><h3>Задняя навеска</h3></button>
     <div class="unfoldingList">
-      <p>
+      <div>
         <?php include '../TRACTOR/TCX_600/specifications/rear_hitch.html';?>
-      </p>
+      </div>
       <img src="../images/dest/tsh600/rearHitch_1.png" alt="rearHitch_1" class="floatLeft">
       <img src="../images/dest/tsh600/rearHitch_2.png" alt="rearHitch_2" class="floatRight">
     </div>
