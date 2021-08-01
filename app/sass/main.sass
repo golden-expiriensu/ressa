@@ -76,16 +76,9 @@ p
 //------------------------------------------------------------//
 
 body
-  display: flex
-body
   min-height: 100vh
-  background: $backgroundC url($backgroundU) center center fixed no-repeat
-  background:
-    size: cover
-    blend-mode: hue
   display: flex
   flex-direction: column
-  width: 100%
   @media screen and (min-width: 1201px)
     font-size: 4vh
   @media screen and (max-width: 1200px)
@@ -96,6 +89,16 @@ body
     font-size: 3.5vw
   @media screen and (max-width: 480px)
     font-size: 3.6vw
+
+#background
+  min-width: 100vw
+  min-height: 100vh
+  position: fixed
+  z-index: -100
+  background: $backgroundC url($backgroundU) no-repeat center center
+  background:
+    size: cover
+    blend-mode: hue
 
 header
   font-size: $headerFC
