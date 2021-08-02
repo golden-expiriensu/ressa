@@ -6,6 +6,6 @@
   <h3><a href="/authorization.php">Войти</a></h3>
   <h3><a href="/registration.php">Зарегистрироваться</a></h3>
 <?php else: ?>
-<?php include 'quantum.html' ?>
+  пасспорт псм
 <?php endif; ?>
 <?php include 'template/foot.php';?>
