@@ -1,3 +1,4 @@
+<?php $pageName = "ТСХ-600"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/head.php';?>
 <h2>Гусеничный сельскохозяйственный трактор общего назначения
 ТСХ-600</h2>

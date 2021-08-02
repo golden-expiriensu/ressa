@@ -1,3 +1,4 @@
+<?php $pageName = "Вход в аккаунт"; ?>
 <?php include 'template/head.php';?>
     <div>
       <h3>Вход в аккаунт</h3>

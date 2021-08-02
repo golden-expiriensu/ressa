@@ -1,3 +1,4 @@
+<?php $pageName = "ТГУ-4 база"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/head.php';?>
 <h2>Трактор Гусеничный Универсальный ТГУ-4</h2>
 <div class="bigImg">

@@ -28,7 +28,7 @@
           <?php else: ?>
           <ul class="userPersonalArea">
             <li>Добрый день, <?= $_COOKIE['user'] ?></li>
-            <li><a href="">Паспорт ПСМ</a></li>
+            <li><a href="/passportPSM.php">Паспорт ПСМ</a></li>
             <li><a href="">Личный кабинет</a></li>
             <li><a href="<?php echo '/user-validation/exit.php';?>">Выйти</a></li>
           </ul>

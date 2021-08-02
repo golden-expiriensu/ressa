@@ -1,3 +1,4 @@
+<?php $pageName = "Продукция"; ?>
 <?php include 'template/head.php';?>
 <div class="products">
   <h1>ПРОДУКЦИЯ</h1>

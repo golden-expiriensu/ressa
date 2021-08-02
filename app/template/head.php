@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>О нас</title>
+  <title><?php echo $pageName ?></title>
   <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/styleSrc.php';?>
 </head>
 <body>

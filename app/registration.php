@@ -1,3 +1,4 @@
+<?php $pageName = "Регистрация"; ?>
 <?php include 'template/head.php';?>
     <div>
       <h3>Регистрация</h3>
