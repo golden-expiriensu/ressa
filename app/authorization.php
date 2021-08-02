@@ -8,7 +8,6 @@
         <div class="error">Неверный логин и/или пароль</div>
         <?php endif; ?>
         <button type="submit" name="submit" id="authorizationButton">Войти</button>
-        <?php setcookie('last_error', '', -1, '/authorization.php'); ?>
       </form>
     </div>
 <?php include 'template/foot.php';?>

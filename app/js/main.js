@@ -29,7 +29,7 @@ function moveBlockAboveBlock(block1, block2, e) {
 
 function moveBlockBelowBlock(block1, block2) {
   block1.css({
-    'right': ($(window).width() - block2.offset().left - block2.width() - ((document.body.offsetHeight > window.innerHeight) ? scrollWidth : 0)) + 'px'
+    'right': ($(window).width() - block2.offset().left - block2.width() - ((document.body.offsetHeight > window.innerHeight) ? 0 : scrollWidth)) + 'px'
   });
   block1.css({
     'top': block2.offset().bottom + 'px'

@@ -15,7 +15,6 @@
         <div class="error">Логин занят, придумайте другой</div>
         <?php endif; ?>
         <button type="submit" name="submit">Зарегистрироваться</button>
-        <?php setcookie('last_error', '', -1, '/registration.php'); ?>
       </form>
     </div>
 <?php include 'template/foot.php';?>

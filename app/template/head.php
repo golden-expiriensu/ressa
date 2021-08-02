@@ -1,3 +1,6 @@
+<?php setcookie('last_error', '', -1, '/registration.php'); ?>
+<?php setcookie('last_error', '', -1, '/authorization.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
