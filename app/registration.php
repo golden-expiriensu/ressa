@@ -5,7 +5,6 @@
       <form action="user-validation/registrationProcessing.php" method="POST" name="registration">
         <input type="text" class="formControl" name="login" placeholder="Придумайте логин">
         <input type="text" class="formControl" name="name" placeholder="Имя">
-        <input type="text" class="formControl" name="surname" placeholder="Фамилия">
         <input type="password" class="formControl" name="password" placeholder="Придумайте пароль">
         <input type="password" class="formControl" name="passwordCheck" placeholder="Повторите пароль">
         <?php if($_COOKIE['last_error'] == 'empty_field'): ?>

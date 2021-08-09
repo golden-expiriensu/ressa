@@ -20,19 +20,20 @@
           Личный кабинет
         </button>
         <div id="personalAreaPopup" class="popup buttonPopup userPersonalArea">
-          <?php if($_COOKIE['user'] == ''): ?>
+        <?php if($_COOKIE['user'] == ''): ?>
           <ul>
             <li><a href="<?php echo '/authorization.php';?>">Войти</a></li>
             <li><a href="<?php echo '/registration.php';?>">Зарегистрироваться</a></li>
           </ul>
-          <?php else: ?>
+        <?php else: ?>
           <ul class="userPersonalArea">
             <li>Добрый день, <?= $_COOKIE['user'] ?></li>
-            <li><a href="/passportPSM.php">Паспорт ПСМ</a></li>
-            <li><a href="">Личный кабинет</a></li>
+          <?php if($_COOKIE['admin'] == true): ?>
+            <li><a href="/admin/">Панель администратора</a></li>
+          <?php endif; ?>
             <li><a href="<?php echo '/user-validation/exit.php';?>">Выйти</a></li>
           </ul>
-          <?php endif; ?>
+        <?php endif; ?>
         </div>
       </li>
     </ul>
