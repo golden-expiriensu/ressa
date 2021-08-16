@@ -2,7 +2,12 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/head.php';?>
 <h2>ТСХ 600</h2>
 <div class="bigImg">
-  <img src="/images/dest/tracked_agricultural_tractors/заполнить" alt="mainView">
+  <div class="bigImg">
+    <img src="/images/dest/tracked_agricultural_tractors/tsh_600/mainView_1.png" alt="mainView_1">
+  </div>
+  <div class="bigImg">
+    <img src="/images/dest/tracked_agricultural_tractors/tsh_600/mainView_2.png" alt="mainView_2">
+  </div>
   <p class="imgDescription">Трактор ТСХ 600</p>
 </div>
 <hr>
@@ -10,7 +15,7 @@
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>
 <div class="unfoldingList">
-  <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_agricultural_tractors/TSH_600/description.html';?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_agricultural_tractors/TSH_600/description.php';?>
 </div>
 
 

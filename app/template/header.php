@@ -1,11 +1,11 @@
 <div id="popupBackground"></div>
 <header>
   <div><a href="<?php echo '/index.php';?>"><img src="<?php echo "/images/dest/logo.png";?>" alt="логотип" class="logo"></a></div>
+  <div class="onlyPC cursive">
+    <h1>РЕССА</h1>
+  </div>
   <div>
     <ul>
-      <li>
-        <a href="<?php echo '/about.php';?>">О нас</a>
-      </li>
       <li>
         <a href="<?php echo '/products.php';?>">Продукция</a>
       </li>
