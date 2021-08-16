@@ -2,15 +2,11 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/head.php';?>
 <h2>ТСХ 600</h2>
 <div class="bigImg">
-  <div class="bigImg">
-    <img src="/images/dest/tracked_agricultural_tractors/tsh_600/mainView_1.png" alt="mainView_1">
-  </div>
-  <div class="bigImg">
-    <img src="/images/dest/tracked_agricultural_tractors/tsh_600/mainView_2.png" alt="mainView_2">
-  </div>
-  <p class="imgDescription">Трактор ТСХ 600</p>
+  <img src="/images/dest/tracked_agricultural_tractors/tsh_600/mainView_1.png" alt="mainView_1">
 </div>
-<hr>
+<div class="bigImg">
+  <img src="/images/dest/tracked_agricultural_tractors/tsh_600/mainView_2.png" alt="mainView_2">
+</div>
 
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>

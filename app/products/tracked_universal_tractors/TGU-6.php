@@ -7,7 +7,6 @@
 <div class="bigImg">
   <img src="/images/dest/tracked_universal_tractors/tgu_6/mainView_2.png" alt="mainView_2">
 </div>
-<hr>
 
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>

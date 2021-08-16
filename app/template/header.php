@@ -10,7 +10,7 @@
         <a href="<?php echo '/products.php';?>">Продукция</a>
       </li>
       <li>
-        <a href="<?php echo '/development.php';?>">Разработки</a>
+        <a class="disabled" href="<?php echo '/development.php';?>">Разработки</a>
       </li>
       <li>
         <a href="<?php echo '/contacts.php';?>">Контакты</a>
