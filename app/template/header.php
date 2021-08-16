@@ -2,7 +2,7 @@
 <header>
   <div><a href="<?php echo '/index.php';?>"><img src="<?php echo "/images/dest/logo.png";?>" alt="логотип" class="logo"></a></div>
   <div class="onlyPC cursive">
-    <h1>РЕССА</h1>
+    <a href="<?php echo '/index.php';?>"><h1>РЕССА</h1></a>
   </div>
   <div>
     <ul>

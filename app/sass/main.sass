@@ -105,7 +105,7 @@ body
   background:
     size: cover
     blend-mode: hue
-  .withoutBlack
+  &.withoutBlack
     background: url($backgroundU) no-repeat center center
     background:
       size: cover
@@ -122,6 +122,9 @@ body
 
 .cursive
   font-style: italic
+
+.underline
+  border-bottom: $borderC 2px solid
 
 .decoratedUl
   li
@@ -191,7 +194,7 @@ header
 form
   display: flex
   flex-direction: column
-  input
+  input, textarea
     margin: 0.3em 0.3em 0 0.3em
     padding: 0.2em
     border-radius: 0.3em

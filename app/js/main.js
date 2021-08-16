@@ -15,6 +15,12 @@ document.body.append(div);
 let scrollWidth = div.offsetWidth - div.clientWidth;
 div.remove();
 
+//-----------------------SMART FORM--------------------------//
+
+$(function(){
+  $("#phoneForm").mask("+7(999) 999-9999");
+});
+
 //-----------------------POPUP--------------------------//
 
 function moveBlockAboveBlock(block1, block2, e) {
