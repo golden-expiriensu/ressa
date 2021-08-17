@@ -9,7 +9,7 @@
   <h4>Почта</h4>
   <input type="text" name="mail" placeholder="example@mail.ru" required>
   <h4>Текст сообщения</h4>
-  <textarea type="text" name="message" placeholder="Здесь вы можете написать ваши пожелания или уточнить вопрос"></textarea>
+  <textarea type="text" name="message" placeholder="Здесь вы можете написать ваши пожелания или уточнить вопрос" rows="3"></textarea>
   <button type="submit" name="submit">Отправить</button>
 </form>
 <?php include 'template/foot.php';?>

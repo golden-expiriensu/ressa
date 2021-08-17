@@ -3,9 +3,7 @@
 <h2>ТГУ-5</h2>
 <div class="bigImg">
   <img src="/images/dest/tracked_universal_tractors/tgu_5/mainView.png" alt="mainView">
-  <p class="imgDescription">Трактор ТГУ-5</p>
 </div>
-<hr>
 
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>

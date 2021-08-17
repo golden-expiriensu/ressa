@@ -2,7 +2,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/head.php';?>
 <h2>ТГУ-6У</h2>
 <div class="bigImg">
-  <img src="/images/dest/tracked_universal_tractors/заполнить" alt="mainView">
+  <img src="/images/dest/tracked_universal_tractors/tgu_6u/mainView.png" alt="mainView">
   <p class="imgDescription">Трактор ТГУ-6У</p>
 </div>
 <hr>
@@ -10,7 +10,7 @@
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>
 <div class="unfoldingList">
-  <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_universal_tractors/TGU-6U/description.html';?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_universal_tractors/TGU-6U/description.php';?>
 </div>
 
 
