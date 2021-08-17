@@ -15,7 +15,7 @@
       <li>
         <a href="<?php echo '/contacts.php';?>">Контакты</a>
       </li>
-      <li>
+      <!-- <li>
         <button type="button" name="personalArea" class="buttonPopupButton">
           Личный кабинет
         </button>
@@ -35,7 +35,7 @@
           </ul>
         <?php endif; ?>
         </div>
-      </li>
+      </li> -->
     </ul>
   </div>
 </header>
