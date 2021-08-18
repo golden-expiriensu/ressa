@@ -1,4 +1,4 @@
-<?php $pageName = "ТГУ-5"; ?>
+<?php $pageName = "Ресса | ТГУ-5"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/head.php';?>
 <h2>ТГУ-5</h2>
 <div class="bigImg">

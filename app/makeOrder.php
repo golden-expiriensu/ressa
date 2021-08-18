@@ -1,4 +1,4 @@
-<?php $pageName = "Сделать заказ"; ?>
+<?php $pageName = "Ресса | Сделать заказ"; ?>
 <?php include 'template/head.php';?>
 <h2 class="underline">Сделать заказ</h2>
 <form action="/makeOrderSend.php" method="post">
