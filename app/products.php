@@ -10,7 +10,7 @@
   <ul class="selfishUnfoldingList">
 
     <li>
-      <button class="popupButton" disabled><h3>ТПУ 3</h3></button>
+      <button class="popupButton disabled"><h3>ТПУ 3</h3></button>
       <div class="popup prompt">
         <a href="products/tracked_agricultural_tractors/TPU_3.php">
           Трактора гусеничные сельскохозяйственные общего назначения, тягового класса 3 тс
@@ -19,7 +19,7 @@
     </li>
 
     <li>
-      <button class="popupButton" disabled><h3>ТПУ 4</h3></button>
+      <button class="popupButton disabled"><h3>ТПУ 4</h3></button>
       <div class="popup prompt">
         <a href="products/tracked_agricultural_tractors/TPU_4.php">
           Трактора гусеничные сельскохозяйственные общего назначения, тягового класса 4 тс
@@ -28,7 +28,7 @@
     </li>
 
     <li>
-      <button class="popupButton" disabled><h3>ТСХ 501</h3></button>
+      <button class="popupButton disabled"><h3>ТСХ 501</h3></button>
       <div class="popup prompt">
         <a href="products/tracked_agricultural_tractors/TSH_501.php">
           Трактора гусеничные сельскохозяйственные общего назначения, тягового класса 5 тс
@@ -98,7 +98,7 @@
   <ul class="selfishUnfoldingList">
 
     <li>
-      <button class="popupButton"><h3>ТПУ-3А</h3></button>
+      <button class="popupButton disabled"><h3>ТПУ-3А</h3></button>
       <div class="popup prompt">
         <a href="">
           Трактор гусеничный промышленного назначения тягового класса 3 тс, с полной массой до 7 500 кг
@@ -107,7 +107,7 @@
     </li>
 
     <li>
-      <button class="popupButton"><h3>ТПУ-4А</h3></button>
+      <button class="popupButton disabled"><h3>ТПУ-4А</h3></button>
       <div class="popup prompt">
         <a href="">
           Трактор гусеничный промышленного назначения тягового класса 4 тс, с полной массой до 9 000 кг.
@@ -124,7 +124,7 @@
   <ul class="selfishUnfoldingList">
 
     <li>
-      <button class="popupButton"><h3>Изготовление металлоконструкций в габаритных размерах 6 000х 2 000х 2 500 мм (длина х ширина х высота) со сборкой на стапеле</h3></button>
+      <button class="popupButton disabled"><h3>Изготовление металлоконструкций в габаритных размерах 6 000х 2 000х 2 500 мм (длина х ширина х высота) со сборкой на стапеле</h3></button>
       <div class="popup prompt">
         <a href="">
 
@@ -133,7 +133,7 @@
     </li>
 
     <li>
-      <button class="popupButton"><h3>Изготовление специальных конвейеров</h3></button>
+      <button class="popupButton disabled"><h3>Изготовление специальных конвейеров</h3></button>
       <div class="popup prompt">
         <a href="">
 

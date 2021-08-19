@@ -11,6 +11,6 @@
   <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/styleSrc.php';?>
 </head>
 <body>
-  <div id="background"<?php if($pageName == "Ресса | главная"): ?>class="withoutBlack"<?php endif; ?>></div>
+  <div id="background"<?php if($pageName == "Ресса | Главная"): ?>class="withoutBlack"<?php endif; ?>></div>
   <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/header.php';?>
   <div class="content">

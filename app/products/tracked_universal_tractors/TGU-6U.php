@@ -2,8 +2,10 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] .'/template/head.php';?>
 <h2>ТГУ-6У</h2>
 <div class="bigImg">
-  <img src="/images/dest/tracked_universal_tractors/tgu_6u/mainView.png" alt="mainView">
-  <p class="imgDescription">Трактор ТГУ-6У</p>
+  <img src="/images/dest/tracked_universal_tractors/tgu_6/mainView_1.png" alt="mainView_1">
+</div>
+<div class="bigImg">
+  <img src="/images/dest/tracked_universal_tractors/tgu_6/mainView_2.png" alt="mainView_2">
 </div>
 <hr>
 
