@@ -56,14 +56,6 @@
   <div class="clearfix"></div>
 
   <li>
-    <button class="unfoldingListButton"><h3>Навесоспособность</h3></button>
-    <div class="unfoldingList">
-      <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_universal_tractors/TGU-5/specifications/load_capacity.html';?>
-    </div>
-  </li>
-  <div class="clearfix"></div>
-
-  <li>
     <button class="unfoldingListButton"><h3>Комплектации</h3></button>
     <div class="unfoldingList">
       <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_universal_tractors/TGU-5/specifications/equipment.html';?>
