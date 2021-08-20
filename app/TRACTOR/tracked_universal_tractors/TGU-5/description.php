@@ -7,7 +7,7 @@
   <img src="/images/dest/tracked_universal_tractors/tgu_5/frame.png" alt="frame">
 </div>
 <div class="clearfix"></div>
-<h4>Каретки</h4>
+<h4>Каретки передние</h4>
 <p>Каретки передние, левая и правая, состоят из собственно переднего рычага левого или правого, и, установленного в него балансира с двумя опорными катками. Каретка передняя левая и правая.</p>
 <div class="bigImg">
   <img src="/images/dest/tracked_universal_tractors/tgu_5/carriages.png" alt="carriages">
@@ -15,8 +15,11 @@
 <div class="clearfix"></div>
 <h4>Каретки задние</h4>
 <p>Каретки задние, левая и правая, с балансирами и установленными опорными катками. Для увеличения прочности заднего рычага по тавровой части дополнительно приварены пластины усилители</p>
-<div class="bigImg">
-  <img src="/images/dest/tracked_universal_tractors/tgu_5/rear_carriages.png" alt="rear_carriages">
+<div class="floatLeft">
+  <img src="/images/dest/tracked_universal_tractors/tgu_5/rear_carriages_1.png" alt="rear_carriages_1">
+</div>
+<div class="floatRight">
+  <img src="/images/dest/tracked_universal_tractors/tgu_5/rear_carriages_2.png" alt="rear_carriages_2">
 </div>
 <div class="clearfix"></div>
 <h4>Опорные катки</h4>
@@ -79,6 +82,12 @@
 <p>В кабине для удобства и поддержания чистоты, на полу имеется легкосъёмный коврик типа лодочка, который позволяет легко вытряхнуть грязь из кабины, не используя глубокую уборку салона, пол ровный, сварен по верхней части профиля.</p>
 <p>Так же в кабине имеется люк, при снятии которого появляется возможность доступа к левой части дизельного двигателя и навесным агрегатам. Съёмный люк обклеен высококачественными шумоизоляционными материалами со стороны дизельного двигателя, имеет две защёлки, которые позволяют удерживать люк в закрытом состоянии при эксплуатации трактора.</p>
 <p>Дверь кабины имеет ограничитель открывания и возможность фиксации двери в открытом состоянии.</p>
+<div class="floatLeft">
+  <img src="/images/dest/tracked_universal_tractors/tgu_5/single_cabin_1.png" alt="single_cabin_1">
+</div>
+<div class="floatRight">
+  <img src="/images/dest/tracked_universal_tractors/tgu_5/single_cabin_2.png" alt="single_cabin_2">
+</div>
 <div class="bigImg">
   <img src="/images/dest/tracked_universal_tractors/tgu_5/single_cabin.png" alt="single_cabin">
 </div>
