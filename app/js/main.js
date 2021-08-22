@@ -15,6 +15,8 @@ document.body.append(div);
 let scrollWidth = div.offsetWidth - div.clientWidth;
 div.remove();
 
+//-------------------------------------------------//
+
 //-----------------------SMART FORM--------------------------//
 
 $(function(){
@@ -188,3 +190,52 @@ function hideSelfishUnfoldingListsExceptCurrent(currentSelfishUnfoldingList){
 }
 
 activateSelfishUnfoldingList();
+
+//-----------------------AUTOSCROLL--------------------------//
+
+var scrollSpeed = 0.0001
+const scrollSpeedStep = 0.005
+
+function scroll_plus(){
+  scrollSpeed += scrollSpeedStep;
+  scroll();
+}
+
+function scroll_minus(){
+	scrollSpeed -= scrollSpeedStep;
+  if(scrollSpeed > 0){
+    scroll();
+  }
+  else{
+    scrollSpeed = 0;
+    stop_scroll();
+  }
+}
+
+function scroll() {
+  var currentHeight = $(document).height() - window.scrollY;
+  var duration = currentHeight / scrollSpeed
+
+  scroll_stop();
+
+  $('html, body').animate({
+    scrollTop: $("footer").offset().top
+  }, {
+    duration: duration,
+    easing: "linear"
+  });
+}
+function scroll_stop(){
+  $('html, body').stop();
+}
+
+
+function scroll_minimize(){
+  $("#maxScroll").addClass("disabled");
+  $("#minScroll").removeClass("disabled");
+}
+
+function scroll_maximize(){
+  $("#maxScroll").removeClass("disabled");
+  $("#minScroll").addClass("disabled");
+}

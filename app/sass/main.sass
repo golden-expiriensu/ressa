@@ -186,6 +186,33 @@ header
       border: none
       padding-bottom: 0
 
+
+#maxScroll, #minScroll
+  display: flex
+  flex-direction: column
+
+#autoscroll
+  display: flex
+  flex-direction: column
+  position: fixed
+  right: -0.5em
+  border: 2px solid $borderC
+  border-radius: 0.2em
+  padding: 0.5em
+  padding-right: 1em
+  background: $popupC url($backgroundU) center fixed no-repeat
+  background:
+    size: cover
+    blend-mode: hue
+  @media screen and (max-width: 1200px)
+    font-size: $popupFS1200
+  @media screen and (max-width: 960px)
+    font-size: $popupFS960
+  @media screen and (max-width: 720px)
+    font-size: $popupFS720
+  .disabled
+    display: none
+
 .content
   text-align: justify
   color: $textC

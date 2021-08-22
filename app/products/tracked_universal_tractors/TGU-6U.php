@@ -9,6 +9,8 @@
 </div>
 <hr>
 
+<?php include $_SERVER['DOCUMENT_ROOT'] .'/template/scrollButton.php';?>
+
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>
 <div class="unfoldingList">

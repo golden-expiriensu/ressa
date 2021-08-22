@@ -8,6 +8,8 @@
   <img src="/images/dest/tracked_agricultural_tractors/tsh_600/mainView_2.png" alt="mainView_2">
 </div>
 
+<?php include $_SERVER['DOCUMENT_ROOT'] .'/template/scrollButton.php';?>
+
 
 <button class="unfoldingListButton"><h2>Описание трактора</h2></button>
 <div class="unfoldingList">
