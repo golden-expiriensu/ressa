@@ -193,31 +193,48 @@ activateSelfishUnfoldingList();
 
 //-----------------------AUTOSCROLL--------------------------//
 
-var scrollSpeed = 0.0001
-const scrollSpeedStep = 0.005
+var scrollSpeed = 0.0025;
+const scrollSpeedStep = 0.005;
+var duration;
 
 function scroll_plus(){
   scrollSpeed += scrollSpeedStep;
-  scroll();
+  scroll_resume();
 }
 
 function scroll_minus(){
 	scrollSpeed -= scrollSpeedStep;
-  if(scrollSpeed > 0){
-    scroll();
-  }
-  else{
-    scrollSpeed = 0;
-    stop_scroll();
-  }
+  if(scrollSpeed <= 0)
+    scrollSpeed = 0.0025;
+  scroll_resume();
 }
 
-function scroll() {
+function scroll_resume() {
   var currentHeight = $(document).height() - window.scrollY;
-  var duration = currentHeight / scrollSpeed
+  duration = currentHeight / scrollSpeed
 
   scroll_stop();
+  scroll_minimize();
 
+  scroll();
+}
+function scroll_stop(){
+  $("#autoscroll").removeClass("stickUp")
+
+  $(".startButton").removeClass("disabled");
+  $(".stopButton").addClass("disabled");
+
+  $('html, body').stop();
+}
+function scroll(){
+  $("#autoscroll").addClass("stickUp")
+
+  $(".startButton").addClass("disabled");
+  $(".stopButton").removeClass("disabled");
+
+  animateScroll();
+}
+function animateScroll(){
   $('html, body').animate({
     scrollTop: $("footer").offset().top
   }, {
@@ -225,16 +242,12 @@ function scroll() {
     easing: "linear"
   });
 }
-function scroll_stop(){
-  $('html, body').stop();
-}
 
 
 function scroll_minimize(){
   $("#maxScroll").addClass("disabled");
   $("#minScroll").removeClass("disabled");
 }
-
 function scroll_maximize(){
   $("#maxScroll").removeClass("disabled");
   $("#minScroll").addClass("disabled");

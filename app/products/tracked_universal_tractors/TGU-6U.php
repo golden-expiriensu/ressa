@@ -22,6 +22,14 @@
 <ul class="unfoldingList">
 
   <li>
+    <button class="unfoldingListButton"><h3>Трактор</h3></button>
+    <div class="unfoldingList">
+      <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_universal_tractors/TGU-6U/specifications/tractor.html';?>
+    </div>
+  </li>
+  <div class="clearfix"></div>
+
+  <li>
     <button class="unfoldingListButton"><h3>Двигатель</h3></button>
     <div class="unfoldingList">
       <?php include $_SERVER['DOCUMENT_ROOT'] .'/TRACTOR/tracked_universal_tractors/TGU-6U/specifications/engine.html';?>
